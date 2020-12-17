@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.titlebox{
+    background: green;
+    
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+
+.titlebox h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.leaf {
+    width: 80px;
+    height: 140px;
+    background-image: linear-gradient(to top left, #A0DE21 49%, transparent 49.5%, transparent 51%, #A0DE21 51%);
+    -moz-border-radius: 100% /120px 0px;
+    -webkit-border-radius: 100% / 120px 0px;
+    border-radius: 100% 0 / 140px 0px;
+  }
